@@ -92,12 +92,13 @@ public void moveY(MobileElement element, int nbPas){
 	
 	public final void play() {
 		addVehicleOnTheRoad();
-		while(true){
+		int i=0;
+		for(;i<getRoad().getView();i++){
 			
 			moveY(getvehicle(),1);
 			Utils.clearConsole();
 			
-			this.getRoad().show(0);
+			this.getRoad().show(i);
 			Utils.sleep(1000);
 		}
 		
