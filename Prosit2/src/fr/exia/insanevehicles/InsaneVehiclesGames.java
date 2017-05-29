@@ -69,7 +69,6 @@ public void moveY(MobileElement element, int nbPas){
 		getRoad().removeOnTheRoad(coord, MotionlessElementsFactory.createMacadam());
 		coord.addY(nbPas);
 		Element e = getRoad().removeOnTheRoad(coord, element);
-		// TODO implémenter la fonction , et ce qui va avec
 	}
 	
 	
@@ -92,13 +91,12 @@ public void moveY(MobileElement element, int nbPas){
 	}
 	
 	public final void play() {
-		int i=0;
+		addVehicleOnTheRoad();
 		while(true){
-			addVehicleOnTheRoad();
-			moveY(getvehicle(),i);
-			i++;
+			
+			moveY(getvehicle(),1);
 			Utils.clearConsole();
-			//enlever l'ancien
+			
 			this.getRoad().show(0);
 			Utils.sleep(1000);
 		}
