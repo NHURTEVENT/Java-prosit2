@@ -1,0 +1,33 @@
+10
+31
+XX|    |XX
+XX|X   |XX
+XX| X  |XX
+XX|X   |XX
+X|    |XXX
+|    |XXXX
+|   X|XXXX
+|   X|XXXX
+|    |XXXX
+X|    |XXX
+XX|X   |XX
+XXX|    |X
+XXXX|    |
+XXXX|X   |
+XXXX|  X |
+XXXX|    |
+XXX|    |X
+XX|   X|XX
+XX|   X|XX
+XX|    |XX
+XX|    |XX
+X|  ||  |X
+|  |XX|  |
+|  |XX|X |
+| X|XX|  |
+|  |XX|  |
+X|  ||  |X
+XX|    |XX
+XX|   X|XX
+XX|  X |XX
+XX|   X|XX
